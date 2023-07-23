@@ -1,0 +1,31 @@
+<!-- Similar to other pages, you can add more fields and pages -->
+<!-- For brevity, we are only including basic experience details here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder - Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resume Builder - Experience</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Add Work Experience</h2>
+            <form id="experienceForm" onsubmit="return false;">
+                <label for="jobTitle">Job Title:</label>
+                <input type="text" id="jobTitle" required>
+                <label for="company">Company:</label>
+                <input type="text" id="company" required>
+                <label for="experienceDesc">Description:</label>
+                <textarea id="experienceDesc" rows="4" required></textarea>
+                <button onclick="showSkillsPage()">Next: Skills</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
